@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(160, 203, 211);
+  color: rgb(97, 79, 79);
+    
+    
+  }
+header {
+  color: rgb(247, 242, 242);
+  font-size: 2em;
+  display: flex;
+  position: relative;
+  top:0;
+  width: 100%;
+  background-color:rgb(71, 92, 134);
+  overflow: auto;
+  height: auto;
+}
+section {
+  position: relative;
+  display: fixed; 
+  margin-top: 0px;
+  margin-left: 25px;
+}
+article {
+  position: relative;
+  display: fixed;
+  margin-top: 300px;
+  margin-left: 25px;
+  font-size: large;
+}
+
+.top-left {
+  width: 100px;
+  height: 80px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+div.gallery {
+  margin-right: 20px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 150px;
+
+}
+div.gallery img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.box {
+  display: block;
+  position: auto;
+
+}
+aside {
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 25px;
+  font-size: large;
+}
+
+form  {
+  margin-top: 350px;
+  position: relative;
+  margin-left: 25px;
+  display: relative;
+  font-size: large;
+}
